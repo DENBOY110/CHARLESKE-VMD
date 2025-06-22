@@ -16,7 +16,7 @@
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"yes",
+      "value":"no",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
@@ -45,7 +45,7 @@
 "AUTO_REACT_STATUS":
     {
       "description":"Enter yes for your bot to auto like status",
-      "value":"yes",
+      "value":"no",
       "required":true
     },
      "PM_PERMIT" :
@@ -72,7 +72,7 @@
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"yes",
+      "value":"no",
       "required":false
     }
 	,
@@ -87,8 +87,8 @@
 	  ,
     "SESSION_ID":
     {
-      "description":"put your session ID , the code you receive after scanning Qr code",   
-      "value":"",
+      "description":"eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiVUpHTS9ra21WWG5WbGxhVUpZQ2h5NU9yWXY4ZTM5ZEJhbU91OW5jNnZGOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiU3FFM1pFRUFrd3ZGMjU1WCtpZUlXNEN0L1J5RDQxVkJBa3lnd05kSFRXWT0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJFRlhxcGxEd0FhRXE0R243QzFLeGdyTno3eFQyTGNHSVRXeE9hWTZrMUV3PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJuVHdxL0dyWHdueUNRbDd5UkdBTENMTGwwaktKT3REYU55NHU2REpTV0RNPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ik9MalFsREoxWmlNamZTdERvZkNBOUhWZnFSUG41R0lmSlc5S0JSRm00Rnc9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjFFeUE3YWV1R0xJUnhEQm9BYzVzU0tFSE1JNjJ5T1paRmFFOE90QmhrVWc9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNENSUklRVWk0UWx4TUQyYnFXekZNYmFpTXp3bGNYeUM0b1JUUWp6aG5XRT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiY0xxVnlNU0F4SWIxK2hKMWF4R1dmdVo1b1FVaFhySWJJOUdrbER0b0tCQT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkUyLzJyd2pTZURKWWRkcHVFb3I4MUlkMUgycEtlYi9MNm5CVnMzR0VucUhXSTRENUhid3Z5TEozN2p0T2h4UENrMVNyTnNZTVR4cHp2UzJoRk9iQ0N3PT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjQsImFkdlNlY3JldEtleSI6IjEvZUVPZnpURHpEK1E4aE1tcXRtZTFaQmRyS2xWM1VBb1p0cEc0L1lid3M9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbeyJrZXkiOnsicmVtb3RlSmlkIjoiMjYzNzg5MDg1NTMzQHMud2hhdHNhcHAubmV0IiwiZnJvbU1lIjp0cnVlLCJpZCI6IjY2MkZGRDNFMDcyNDZCQjAwRTg1RkE3MkZEMTE0Q0I4In0sIm1lc3NhZ2VUaW1lc3RhbXAiOjE3NTA2MzMyNTF9LHsia2V5Ijp7InJlbW90ZUppZCI6IjI2Mzc4OTA4NTUzM0BzLndoYXRzYXBwLm5ldCIsImZyb21NZSI6dHJ1ZSwiaWQiOiI5MzY4MkMwNkQyRTMyODAzNjI0NDYyN0I0MTlBODFERiJ9LCJtZXNzYWdlVGltZXN0YW1wIjoxNzUwNjMzMjUyfV0sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjoxLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwicmVnaXN0ZXJlZCI6dHJ1ZSwicGFpcmluZ0NvZGUiOiIxMjNMT1RVUyIsIm1lIjp7ImlkIjoiMjYzNzg5MDg1NTMzOjYyQHMud2hhdHNhcHAubmV0IiwibmFtZSI6IvCdkLfwnZC44oSV8J2QtfCdmYrwnZGMIiwibGlkIjoiMTIzOTE4Mzk2NDg1ODgyOjYyQGxpZCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDT2JPL1JZUWpaYml3Z1lZQ0NBQUtBQT0iLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiN2Y4MFRPRWlyOXpwQWx6SlhwMVJXaE1KMEpqQXUrbUI1OWJaTXNxdTNoaz0iLCJhY2NvdW50U2lnbmF0dXJlIjoicjlhNU9nVlViWXo1dTZjeVEzT085enhDYmtRMmZIdDdjcmF5c3p6RG9XL1BWR0pHWHZUTThMOXlGRjdxeWZvRm04ZmVpbVJaWllqVzBVOENRVDBKQnc9PSIsImRldmljZVNpZ25hdHVyZSI6IjRsYVNtcWwrSFEvU1lNbmUvWlJLSnpPZThPdjlrYk1XeStwU1czcHVEbHFLK3hWSjFTcVlBYVdnMUhXMGNVbjdEay9hMllVV0hHTlJDM0cwSUdlWEJRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjYzNzg5MDg1NTMzOjYyQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQmUzL05FemhJcS9jNlFKY3lWNmRVVm9UQ2RDWXdMdnBnZWZXMlRMS3J0NFoifX1dLCJwbGF0Zm9ybSI6InNtYmEiLCJyb3V0aW5nSW5mbyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkNBZ0lCUT09In0sImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTc1MDYzMzI0MywibGFzdFByb3BIYXNoIjoiMlAxWWhmIiwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFQNU4ifQ==",   
+      "value":"true",
       "required":true
       
     },
@@ -97,14 +97,14 @@
     
     "desc": "Your Name",
     "required": false,
-    "value": "©charles"
+    "value": "©Denny"
   },
     "NUMERO_OWNER":
   {
     
-    "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
+    "desc": "Dennh",
     "required":true,
-    "value": ""
+    "value": "true"
   },
     "WARN_COUNT":
   {
@@ -120,7 +120,7 @@
   },
   "PRESENCE":{
     "description":"Mark your presence: 1 online. 2 typing a message. 3 recording . Or leave the field blank to indicate your real state.",
-    "value":"",
+    "value":"2",
     "required": false
   },
   "ANTI_DELETE_MESSAGE" : {
